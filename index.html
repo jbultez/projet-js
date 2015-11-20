@@ -9,12 +9,22 @@
     <script language="javascript">
     var name = window.prompt("what is your name?");
     window.alert("your name is " + name);
-    var quest = window.prompt("what is your quest ?");
-    if (quest == "to seek for the holy grail"){
-      window.alert("Good")
+    var age = window.prompt("how old are you?");
+    window.alert("You are " + age);
+    if (age <=10){
+      window.alert("you are a kid")
+    }
+    if (age <=17){
+      window.alert("you aren't an adult")
+    }
+    if (age >= 18){
+      window.alert("you are an adult")
+    }
+    if (age > 120){
+      window.alert("are you mummy?")
     }
     else {
-      window.alert("Arrgh");
+      window.alert("I ask you your age...")
     }
     </script>
   </body>
