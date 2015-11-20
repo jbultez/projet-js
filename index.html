@@ -2,29 +2,20 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type ="text/css" href="css/stylesheet.css"/>
   <title></title>
   </head>
   <body>
     <script language="javascript">
-    var name = window.prompt("what is your name?");
-    window.alert("your name is " + name);
-    var age = window.prompt("how old are you?");
-    window.alert("You are " + age);
-    if (age <=10){
-      window.alert("you are a kid")
+    var age = window.prompt("How old are you?");
+    window.alert("You have " + age + " years");
+    if (age < 30){
+      window.alert ("You will be 30 in " +(30-age)+ " years");
     }
-    if (age <=17){
-      window.alert("you aren't an adult")
-    }
-    if (age >= 18){
-      window.alert("you are an adult")
-    }
-    if (age > 120){
-      window.alert("are you mummy?")
+    if (age > 30){
+      window.alert("You was 30 since " +(age-30)+ " years");
     }
     else {
-      window.alert("I ask you your age...")
+      window.alert("You are 30 years");
     }
     </script>
   </body>
